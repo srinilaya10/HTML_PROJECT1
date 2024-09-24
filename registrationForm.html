@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>student registration form</h1>
+        <!-- hey we want to place things in middle then we have to use table in case of table. -->
+         <form action="">
+         <table align="center">
+            <tr>
+                <td> <label for="firstname">firstname:</label></td>
+                <td> <input type="text" placeholder="lastname" name="lastname" id="firstname" maxlength="40"></td>
+                <td><p>(max 30-40 charecters a-z A-Z)</p></td>
+            </tr>
+            <tr>
+                <td> <label for="lastname">Lastname:</label></td>
+                <td> <input type="text" placeholder="lastname" name="lastname" id="lastname"></td>
+                <td><p>(max 30-40 charecters a-z A-Z)</p></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+
+            <tr>
+                <td><label for="mail">Email:</label></td>
+                <td><input type="email" name="mail" placeholder="mail" id="mail"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>Male:<input type="radio" name="gender" value="male">
+                Female:<input type="radio" name="gender" value="male">
+                tarnsgender:<input type="radio" name="gender" value="tarnsgender"></td>
+            </tr>
+            <tr>
+                <td><label for="mobile">Mobile Number:</label></td>
+                <td><input type="number" name="mobile" placholder="enter.." id="mobile" maxlength="10"></td>
+                <td><p>(10 digit number only)</p></td>
+
+            </tr>
+            <tr>
+                <td><p>Hobbies:</p></td>
+                <td><label for="singing">Singing</label><input type="checkbox" name="hobbies" id="singing" >
+                <label for="reading">reading</label><input type="checkbox" name="hobbies" id="reading" >
+                <label for="running">Running</label><input type="checkbox" name="hobbies" id="running" >
+                <label for="swiming">swiming</label><input type="checkbox" name="hobbies" id="swiming" >
+                </td>
+                
+            </tr>
+            <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea name="address" id="address" cols="30 " placeholder="address"></textarea></tr><td>
+            </tr>
+            <tr>
+                <td>Qualification</td>
+                <td>
+                    <table cellpadding="6">
+                         <thead >
+                            <tr><th colspan="5">please enter your data</th></tr>
+                         </thead>
+                         <tbody>
+                          <tr>
+                              <td align="center">SINO</td>
+                              <td align="center">Examination</td>
+                              <td align="center">Board/university</td>
+                              <td align="center">percentage</td>
+                              <td align="center">year of passing</td>
+                          </tr>
+                          <tr>
+                              <td align="center"> 1. </td>
+                              <td align="center"> class x</td>
+                              <td><input type="text" placeholder="enter the board" name="board" id="baord"></td>
+                              <td><input type="number" placeholder="marks" name="marks" id="marks"></td>
+                              <td><input type="number" placeholder="year" name="passingyear" id="passingyear"></td>
+                          </tr>
+                          <tr>
+                            <td align="center"> 2. </td>
+                            <td align="center"> class x!!</td>
+                            <td><input type="text" placeholder="enter the board" name="board" id="baord"></td>
+                            <td><input type="number" placeholder="marks" name="marks" id="marks"></td>
+                            <td><input type="number" placeholder="year" name="passingyear" id="passingyear"></td>
+
+                          </tr>
+                          <tr>
+                            <td align="center"> 3. </td>
+                            <td align="center"> Graduation</td>
+                            <td><input type="text"   placeholder="enter the board" name="board" id="baord"></td>
+                            <td><input type="number" placeholder="marks" name="marks" id="marks"></td>
+                            <td><input type="number" placeholder="year" name="passingyear" id="passingyear"></td>
+                         </tr>
+                          <tr>
+                            <td align="center"> 4. </td>
+                            <td align="center"> Masters</td>
+                            <td><input type="text" placeholder="enter the board" name="board" id="baord"></td>
+                            <td><input type="number" placeholder="marks" name="marks" id="marks"></td>
+                            <td><input type="number" placeholder="year" name="passingyear" id="passingyear"></td>
+                        </tr>
+                         </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="SUbmit" value="SUbmit"></td>
+                <td><input type="reset" value="reset"></td>
+            </tr>
+
+
+         </table>
+        </form>
+         
+</body>
+</html>
